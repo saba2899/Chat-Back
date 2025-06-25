@@ -16,10 +16,7 @@ const server = http.createServer(app);
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://serene-waters-93778.herokuapp.com/",
-    ],
+    origin: ["http://localhost:5173", "https://sukonka.netlify.app/"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   })
